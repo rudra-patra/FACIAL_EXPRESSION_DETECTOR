@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model Files
+*.pth
+*.pt
+*.ckpt
+
+# Training Outputs
+checkpoints/
+models/
+weights/
+
+# Plots & Results
+confusion_matrix.png
+training_curve.png
+runs/
+logs/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dataset
+fer2013.csv
+data/
+
+# Cache
+.cache/
